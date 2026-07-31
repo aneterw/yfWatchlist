@@ -29,12 +29,12 @@
 
 ## 功能特色
 
-### 即時報價
+### 股票報價（延遲）
 
-- 透過 Yahoo Finance 獲取全球股票即時報價（延遲 15-20 分鐘）
+- 透過 Yahoo Finance 獲取全球股票報價（延遲 15-20 分鐘）
 - 支援美股、台股、港股、陸股、ETF、指數等多種金融商品
 - 並行抓取多檔股票報價，提升載入速度
-- 即時顯示價格、漲跌、漲跌幅、成交量
+- 顯示價格、漲跌、漲跌幅、成交量
 
 ### 多觀測清單管理
 
@@ -260,12 +260,12 @@ This project originated from the need for real-time monitoring of global financi
 
 ## Features
 
-### Real-time Quotes
+### Stock Quotes (Delayed)
 
 - Fetches global stock quotes via Yahoo Finance (15-20 minute delay)
 - Supports US stocks, Taiwan stocks, Hong Kong stocks, China A-shares, ETFs, indices, and more
 - Concurrent quote fetching for faster loading
-- Displays price, change, change percentage, and volume in real-time
+- Displays price, change, change percentage, and volume
 
 ### Multi-Watchlist Management
 
