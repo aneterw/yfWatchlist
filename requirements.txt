@@ -1,0 +1,6 @@
+python-fasthtml>=0.12.0
+yfinance>=0.2.40
+pandas>=2.0.0
+numpy>=1.24.0
+pywebview>=6.0          # desktop standalone launcher (app_desktop.py)
+uvicorn>=0.30           # ASGI server used by app_desktop.py
