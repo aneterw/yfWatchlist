@@ -119,7 +119,7 @@
 
 ## 專案結構
 
-`
+```
 yfWatchlist/
 ├── main.py              # FastHTML 主程式，定義所有頁面與 API 路由
 ├── config.py            # 應用程式設定與常數
@@ -140,7 +140,7 @@ yfWatchlist/
     ├── app.js           # 前端 JavaScript 邏輯
     ├── styles.css       # 全域 CSS 樣式（含 8 種主題）
     └── yfWatchlist.ico  # 網頁 favicon
-`
+```
 
 ---
 
@@ -155,7 +155,7 @@ yfWatchlist/
 
 ### 方法一：直接執行（推薦開發模式）
 
-`ash
+```bash
 
 # 1. 安裝相依套件
 
@@ -164,16 +164,16 @@ pip install -r requirements.txt
 # 2. 啟動（瀏覽器存取 http://localhost:5001）
 
 python main.py
-`
+```
 
 ### 方法二：使用批次檔啟動（Windows）
 
-`ash
+```bash
 
 # 雙擊 yfWatchlist.bat 即可啟動
 
 yfWatchlist.bat
-`
+```
 
 ---
 
