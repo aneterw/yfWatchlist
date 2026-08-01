@@ -157,12 +157,14 @@ yfWatchlist/
 
 ```bash
 
-# 1. 安裝相依套件
+# 1. 複製專案到本機
+git clone https://github.com/aneterw/yfWatchlist.git
+cd yfWatchlist
 
+# 2. 安裝相依套件
 pip install -r requirements.txt
 
-# 2. 啟動（瀏覽器存取 http://localhost:5001）
-
+# 3. 啟動（瀏覽器存取 http://localhost:5001）
 python main.py
 ```
 
@@ -387,10 +389,14 @@ yfWatchlist/
 ### Method 1: Direct Execution (Recommended for Development)
 
 ```bash
-# 1. Install dependencies
+# 1. Clone the repository
+git clone https://github.com/aneterw/yfWatchlist.git
+cd yfWatchlist
+
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# 2. Launch (browser access at http://localhost:5001)
+# 3. Launch (browser access at http://localhost:5001)
 python main.py
 ```
 
